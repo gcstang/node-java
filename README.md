@@ -58,6 +58,12 @@ npm test
 
 _NOTE: You will need node-gyp installed using "npm install -g node-gyp"_
 
+On Raspian you might need a: 
+
+* sudo ln -s /usr/lib/jvm/jdk-7-oracle-arm-vfp-hflt /opt/jdk
+
+Some issues with the OpenSDK7 so take the Oracle version for compiling.
+
 ## Docker
 
 If you want to play with node-java but don't want to setup the build environment you can run it in docker.
